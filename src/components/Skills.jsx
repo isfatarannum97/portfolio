@@ -78,7 +78,7 @@ export default function Skills() {
 
   return (
     <section id="skills" className="section-padding">
-      <div ref={ref} className="max-w-6xl mx-auto">
+      <div ref={ref} className="max-w-6xl mx-auto px-6 md:px-10 lg:px-16">
 
         {/* Section header */}
         <div className={`mb-16 transition-all duration-700

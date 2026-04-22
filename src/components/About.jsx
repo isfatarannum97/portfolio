@@ -44,7 +44,7 @@ export default function About() {
     <section id="about" className="section-padding bg-cream-100 dark:bg-ink-800">
       <div
         ref={ref}
-        className="max-w-6xl mx-auto"
+        className="max-w-6xl mx-auto px-6 md:px-10 lg:px-16"
       >
         {/* Section header */}
         <div className={`mb-16 transition-all duration-700

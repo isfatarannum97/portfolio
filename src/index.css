@@ -6,10 +6,16 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    /* Disable overscroll bounce on Chrome/Edge/Safari */
+    overscroll-behavior: none;
   }
 
   body {
     @apply font-body bg-cream-50 text-ink-800 transition-colors duration-300;
+    /* Also kill the elastic bounce effect on body */
+    overscroll-behavior: none;
+    /* Prevent horizontal overflow */
+    overflow-x: hidden;
   }
 
   .dark body {
@@ -40,7 +46,8 @@
   }
 
   .section-padding {
-    @apply py-24 px-6 md:px-12 lg:px-24;
+    /* No horizontal padding — inner max-w containers handle spacing */
+    @apply py-24;
   }
 
   .card-hover {

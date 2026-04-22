@@ -21,7 +21,7 @@ export default function Hero() {
     <section
       id="home"
       className="relative min-h-screen flex flex-col items-center justify-center
-        overflow-hidden px-6 md:px-12 pt-16"
+        overflow-hidden pt-16"
     >
       {/* ── Background decoration ── */}
       <div className="absolute inset-0 pointer-events-none">
@@ -35,7 +35,7 @@ export default function Hero() {
       </div>
 
       <div className="relative max-w-6xl w-full mx-auto grid md:grid-cols-2 gap-12
-        items-center py-20">
+        items-center py-20 px-6 md:px-10 lg:px-16">
 
         {/* ── Left: Text content ── */}
         <div className="space-y-6">

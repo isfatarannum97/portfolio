@@ -150,7 +150,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className="section-padding bg-cream-100 dark:bg-ink-800">
-      <div ref={ref} className="max-w-6xl mx-auto">
+      <div ref={ref} className="max-w-6xl mx-auto px-6 md:px-10 lg:px-16">
 
         {/* Header */}
         <div className={`mb-16 flex flex-col md:flex-row md:items-end justify-between gap-6

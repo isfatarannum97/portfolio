@@ -22,7 +22,7 @@ export default function Footer() {
 
   return (
     <footer className="bg-ink-900 dark:bg-black text-cream-200/60 py-12 px-6 md:px-12">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto px-6 md:px-10 lg:px-16">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8 mb-10">
 
           {/* Logo */}
